@@ -1,5 +1,5 @@
 <?php
-symlink('/fast-beyond-88645/storage/app/public','/fast-beyond-88645/public/storage');
+symlink('/fast-beyond-test/storage/app/public','/fast-beyond-test/public/storage');
 
 
  
