@@ -18,7 +18,6 @@
 
                    <a href="/posts/create" class="btn btn-primary btn-lg">New post !</a>
                 
-                
                 <hr>
                 @foreach($posts as $post)
                 <div class="panel panel-success">
@@ -49,13 +48,5 @@
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
 
 @endsection

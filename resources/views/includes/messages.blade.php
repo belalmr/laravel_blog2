@@ -6,8 +6,6 @@
   <strong>Oh  !</strong> {{$error}}  and try submitting again.
 </div>
   
-  
-  
   @endforeach
 
   @endif
@@ -18,11 +16,8 @@
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <strong>Well done!</strong>   {{session('success')}}.
 </div>
-  
-
 
   @endif
-
 
    @if(session('error'))
   
@@ -30,8 +25,5 @@
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <strong>Oh  !</strong>   {{session('error')}}  and try submitting again.
 </div>
-
-
-   
 
   @endif

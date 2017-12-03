@@ -1,11 +1,6 @@
 
- 
+
 <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
-
-
-
-
-
  
 
  <div id="mycarousel" class="carousel slide" data-ride="carousel">
@@ -18,29 +13,24 @@
   </ol>
 
   <!-- Wrapper for slides -->
+
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="/img/11.png" data-color="lightblue" alt="First Image"  >
+      <img src="/img/car-guru-deals.jpg" data-color="lightblue" alt="First Image"  >
       <div class="carousel-caption mycolor4">
-        <h2 class="myfonty">
- This is test 1
-        
-        </h2>
+        <h1 class="myfonty" style="color: white"> car guru deals</h1>
       </div>
     </div>
     <div class="item">
-      <img src="/img/12.png" data-color="firebrick" alt="Second Image" >
+      <img src="/img/luxury-cars.jpg" data-color="firebrick" alt="Second Image" >
       <div class="carousel-caption mycolor4">
-        <h2 class="myfonty">
- This is test 2        
-        </h2>
+        <h1 class="myfonty" style="color: white">luxury-cars</h1>
       </div>
     </div>
     <div class="item">
-      <img src="/img/13.png" data-color="violet" alt="Third Image">
+      <img src="/img/Project Cars (PC).jpg" data-color="violet" alt="Third Image">
       <div class="carousel-caption mycolor4">
-        <h2 class="myfonty">
- This is test 3        </h2>
+        <h1 class="myfonty" style="color: white">Project Cars (PC)</h1>
       </div>
     </div>
     
@@ -82,7 +72,7 @@
 </style>
 <script>
 $('.carousel').carousel({
-  interval: 2000,
+  interval: 5000,
   pause: "false"
 });
 </script>
